@@ -1,0 +1,8 @@
+paul u 19,5 1,84
+ayton o 16,5 1,78
+booker o 27,5 1,79
+crowder u 9,5 1,77
+
+
+
+

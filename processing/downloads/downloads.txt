@@ -1,0 +1,4 @@
+00001;file1.txt;/m_download/;First file
+00002;file2.txt;/m_download/;Second file
+00003;file3.txt;/m_download/;Third file
+00004;file4.txt;/m_download/;Fourth file
