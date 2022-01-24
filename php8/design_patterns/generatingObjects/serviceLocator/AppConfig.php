@@ -6,8 +6,6 @@ use generatingObjects\factoryMethod\goodExample\BloggsCommsManager;
 use generatingObjects\factoryMethod\goodExample\CommsManager;
 use generatingObjects\factoryMethod\goodExample\MegaCommsManager;
 
-include_once('../../autoload.php');
-
 class AppConfig
 {
     private static ?AppConfig $instance = null;
