@@ -1,0 +1,19 @@
+CREATE TABLE 'venue' (
+ 'id' int(11) NOT NULL auto_increment,
+ 'name' text,
+ PRIMARY KEY ('id')
+)
+CREATE TABLE 'space' (
+ 'id' int(11) NOT NULL auto_increment,
+ 'venue' int(11) default NULL,
+ 'name' text,
+ PRIMARY KEY ('id')
+)
+CREATE TABLE 'event' (
+ 'id' int(11) NOT NULL auto_increment,
+ 'space' int(11) default NULL,
+ 'start' mediumtext,
+ 'duration' int(11) default NULL,
+ 'name' text,
+ PRIMARY KEY ('id')
+)
