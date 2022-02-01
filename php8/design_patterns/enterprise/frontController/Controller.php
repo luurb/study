@@ -2,7 +2,7 @@
 
 namespace enterprise\frontController;
 
-class Controler
+class Controller
 {
     private Registry $reg;
 
@@ -30,4 +30,5 @@ class Controler
         $cmd = $resolver->getCommand($request);
         $cmd->execute($request);
     }
+    
 }

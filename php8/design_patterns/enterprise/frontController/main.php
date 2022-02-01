@@ -1,7 +1,7 @@
 <?php
 
-use enterprise\frontController\Controler;
+use enterprise\frontController\Controller;
 
 require_once('../../autoload.php');
 
-Controler::run();
+Controller::run();
