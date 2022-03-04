@@ -1,0 +1,17 @@
+{
+    "name": "vendor/namespacer",
+    "authors": [
+        {
+            "name": "Lukasz Urbaniak",
+            "email": "luckyyluk20@gmail.com"
+        }
+    ],
+    "require": {
+        "abraham/twitteroauth": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "classes\\": "classes"
+        }
+    }
+}

@@ -1,7 +1,5 @@
 <?php
 
-
-
 class ShopProduct implements IIdentityObject
 {
     use PriceUtilities;
